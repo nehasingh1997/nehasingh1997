@@ -1,0 +1,9 @@
+var a = [[7,9,8,4], [3,1,2,7], [4,5,6]];
+var b=[];
+
+for(var i=0;i<a.length; i++){
+
+    b=b.concat(a[i]);
+    console.log(b);
+
+}
